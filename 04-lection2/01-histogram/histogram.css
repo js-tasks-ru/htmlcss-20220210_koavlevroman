@@ -11,23 +11,28 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 6px;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: var(--black);
     line-height: 24px;
 }
 
-.histogram__header {}
+.histogram__header {
+    font-family: 'Inter', sans-serif;
+}
 
 .histogram__view-all,
 .histogram__view-all:hover,
 .histogram__view-all:active,
 .histogram__view-all:visited {
+    font-family: 'Inter', sans-serif;
     text-decoration: none;
     color: var(--blue-1);
 }
 
 .histogram__total-count {
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     line-height: 26px;
     margin-bottom: 39px;
