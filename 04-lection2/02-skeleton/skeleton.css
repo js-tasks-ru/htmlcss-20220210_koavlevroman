@@ -1,0 +1,46 @@
+.skeleton {
+    padding: 24px 40px 24px 24px;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+}
+
+.skeleton__logo-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.skeleton__logo {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-right: 16px;
+    background-color: var(--grey-2);
+}
+
+.skeleton__animated-block {
+    height: 20px;
+    margin-bottom: 8px;
+    background-color: var(--grey-2);
+}
+
+.skeleton__animated-block_short {
+    width: 40%;
+}
+
+.skeleton__animated-block_normal {
+    width: 60%;
+}
+
+.skeleton__animated-block_long {
+    width: 100%;
+}
+
+.skeleton__description {
+    flex: 1;
+}
+
+.skeleton__description .skeleton__animated-block:last-child {
+    margin-bottom: 0;
+}
