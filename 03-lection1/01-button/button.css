@@ -1,8 +1,8 @@
 /* Стилизация кнопки */
 .button {
-    width: 189px;
-    padding: 15px 0;
+    padding: 15px 30px;
     border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: var(--white);
     cursor: pointer;
@@ -16,32 +16,32 @@
 
 /* primary */
 
-.button.button_primary {
+.button_primary {
     background: var(--primary);
 }
 
-.button.button_primary:hover {
+.button_primary:hover {
     background: #2342C0;
 }
 
 /* secondary */
 
-.button.button_secondary {
+.button_secondary {
     background: var(--secondary);
 }
 
-.button.button_secondary:hover {
+.button_secondary:hover {
     background: #5028C6;
 }
 
 /*  Alternate */
 
-.button.button_alternate {
+.button_alternate {
     color: var(--grey-4);
     background: var(--alternate);
     border: 1px solid var(--grey-3);
 }
 
-.button.button_alternate:hover {
+.button_alternate:hover {
     border: 1px solid var(--black);
 }
